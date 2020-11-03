@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 90%;/* background-color: crimson; */margin: auto;padding: 50px 0;}
+.logo{
+width: 20%;
+float: left;
+}
+nav{width: 56%;float: right;overflow: hidden;}
+nav ul{
+list-style: none;
+overflow: hidden;
+}
+nav ul li{float: left;margin-left: 85px;color: #626262;font-size: 18px;text-transform: uppercase;}
+.banner{
+width: 90%;
+margin: auto;
+}
+.banner img{
+width: 100%;
+}
+.photodairy{
+width: 80%;
+margin: auto;
+padding: 50px 0;
+}
+.photodairy h5,  .item-one h5,   .item-two h5{
+color: #b4ad9e;
+font-size: 14px;
+text-transform: uppercase;
+margin: 15px,0;
+}
+.photodairy h1, .item-one h1,.item-two h1, .news h1 {
+color: #626262;
+text-transform: capitalize;
+font-size: 35px;
+margin: 15px 0;
+}
+.photodairy p, .item-one p,.item-two p {
+color: #626262;  
+font-size: 16px; 
+margin-bottom: 30px; 
+
+}
+.lifestyle{
+
+    width: 80%;
+    
+    margin: auto;
+    }
+    .content{
+    overflow: hidden;
+    }
+    .item-one{
+    
+    width: 45%;
+    
+    float: left;
+    padding: 50px 0;
+    }
+    .item-one img{
+    
+    width: 100%;
+    }
+    .item-one h5{
+    margin-top: 15px;
+    }
+    .item-one h1{
+        text-transform: initial;
+    
+    }
+    .item-one p{
+    
+    }
+    .item-two{
+    
+    width: 45%;
+    
+    float: right;
+    padding: 50px 0;
+    }
+    .item-two img{
+    
+    width: 100%;
+    }
+    .item-two h5{
+    margin-top: 15px;
+    }
+    .item-two h1{
+        text-transform: initial;
+    
+    }
+    .item-two p{
+        
+    }
+    .newsletter{
+
+        background-color: #f0f0f0;
+padding: 50px 0;
+        
+        }
+            .news{
+        
+        width: 30%;
+        
+        margin: auto;
+        
+        }
+            .news h1{
+                text-transform: initial;
+        
+            }
+            .news input{
+                
+        border: none;
+                
+        background: transparent;
+                
+        border-bottom: 1px solid;
+                
+        width: 100%;
+                
+        margin-top: 50px;
+        padding: 10px 0;
+            }
+        .news input:focus{
+            outline: none;
+        }
+        .news input::placeholder{
+            text-transform: capitalize;
+        }
+  .icon{
+    position: absolute;
+
+    right: 35%;
+    
+
+  }
+  .btn{
+
+    text-align: center;
+    
+    padding: 100px 0;
+    
+    }
+    button{
+
+        border: none;
+        
+        background: transparent;
+        
+        border: 1px solid black;
+        
+        padding: 20px 30px;
+        
+        font-size: 20px;
+        
+        cursor: pointer;
+        }
+        footer{
+
+            background-color: #f0f0f0;
+            
+            padding: 50px 0;
+            
+            }
+                    .footer-content{
+            
+            width: 80%;
+            
+            margin: auto;
+            
+            overflow: hidden;
+            
+            }
+                    .privacy{
+            
+            width: 30%;
+            
+            float: left;
+            
+            }
+                    .privacy ul{
+            
+                    }
+                    .privacy ul li{
+            
+            float: left;
+            
+            list-style: none;
+            
+            margin-right: 18px;
+            
+            font-size: 16px;
+            
+            text-transform: capitalize;
+            
+            }
+                    .social-icon{
+            
+            width: 30%;
+            
+            float: right;
+            
+            overflow: hidden;
+            
+            }
+                    .social-icon ul{
+            
+            list-style: none;
+            
+            margin: 0;
+            
+            }
+                    .social-icon ul li{
+            
+            float: left;
+            
+            font-size: 16px;
+            
+            text-transform: capitalize;
+            
+            margin-left: 15px;
+            
+            color: #626262;
+            
+            }
+                    .social-icon ul li a{
+            
+                    }
